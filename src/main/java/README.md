@@ -6,7 +6,7 @@ Este repositorio reúne el desarrollo completo del Examen Parcial II, el cual co
 ---
 
 ## Desarrollo en Java (IntelliJ IDEA)
-La aplicación fue construida utilizando Java 17 y gestionada con Maven. El código está organizado bajo una estructura modular para mantener una separación clara entre la representación de los datos, la lógica de negocio y la interacción con el usuario.
+La aplicación fue construida utilizando Java y gestionada con Maven. El código está organizado bajo una estructura modular para mantener una separación clara entre la representación de los datos, la lógica de negocio y la interacción con el usuario.
 
 * **Modelos y Herencia:** Se creó una clase abstracta base denominada `Vehiculo` de la cual heredan las subclases `Automovil` y `Motocicleta`. Esto permite aplicar tarifas diferenciadas y reglas de cálculo según la naturaleza del vehículo.
 * **Lógica de Negocio (`service`):** En la clase `EstacionamientoService` se concentran los métodos para registrar el ingreso de vehículos, calcular los cobros en función del tiempo de permanencia, listar los registros actuales y gestionar la desactivación o modificación de datos.
